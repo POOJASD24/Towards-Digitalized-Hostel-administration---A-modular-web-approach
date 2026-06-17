@@ -24,8 +24,10 @@ CORS(app)
 
 import os
 from pymongo import MongoClient
+from dotenv import load_dotenv
 
-mongo_uri = os.environ.get("MONGO_URI")  # Load from environment
+load_dotenv()
+mongo_uri = os.environ.get("MONGO_URI", "mongodb://127.0.0.1:27017")
 client = MongoClient(mongo_uri)
 db = client["user_db"]
 rooms_collection = db["rooms"]
