@@ -28,7 +28,7 @@ The goal of the project is to reduce paperwork, improve transparency, and ensure
 - **Backend**: Python Flask
 - **Database**: MongoDB
 - **Tools**: Git, GitHub, Render
-- 
+  
 ## Journal Publication
 
 We are proud to announce that this project has been **published in the International Journal of Scientific Research and Engineering Development (IJSRED)**.  
